@@ -1,0 +1,160 @@
+\begin{thebibliography}{10}
+
+\bibitem{Arjovsky2017}
+Martin Arjovsky, Soumith Chintala, and L{\'e}on Bottou.
+\newblock {Wasserstein Generative Adversarial Networks}.
+\newblock In Doina Precup and Yee~Whye Teh, editors, {\em Proceedings of the
+  34th International Conference on Machine Learning}, volume~70 of {\em
+  Proceedings of Machine Learning Research}, pages 214--223, International
+  Convention Centre, Sydney, Australia, 06--11 Aug 2017. PMLR.
+
+\bibitem{BlackScholes1973}
+Fischer Black and Myron Scholes.
+\newblock {The Pricing of Options and Corporate Liabilities}.
+\newblock {\em Journal of Political Economy}, 81:637--654, 1973.
+
+\bibitem{Brock2018}
+Andrew Brock, Jeff Donahue, and Karen Simonyan.
+\newblock {Large Scale {GAN} Training for High Fidelity Natural Image
+  Synthesis}.
+\newblock {\em CoRR}, abs/1809.11096, 2018.
+
+\bibitem{Buehler2019}
+Hans Buehler, Lukas Gonon, Josef Teichmann, and Ben Wood.
+\newblock Deep {Hedging}.
+\newblock {\em Quantitative Finance}, 19(8):1271--1291, 2019.
+
+\bibitem{Buehler2017}
+Hans Buehler and Evgeny Ryskin.
+\newblock {Discrete Local Volatility for Large Time Steps (Extended Version)}.
+\newblock {\em Available at SSRN 2642630}, 2017.
+
+\bibitem{Cont2002}
+Rama Cont and Jose\'{e} Da~Fonseca.
+\newblock {Dynamics of Implied Volatility Surfaces}.
+\newblock {\em Quantitative Finance}, 2:45--60, 2002.
+
+\bibitem{Dupire1994}
+Bruno Dupire.
+\newblock Pricing with a smile.
+\newblock {\em Risk}, 7:18--20, 1994.
+
+\bibitem{Eurex2019}
+Eurex.
+\newblock {Eurex Monthly Statistics}.
+\newblock
+  \url{https://www.eurexchange.com/exchange-en/market-data/statistics/monthly-statistics},
+  2019.
+\newblock Accessed: 2019-09-23.
+
+\bibitem{Francq2010}
+Christian Francq and Jean-Michel Zako\"ian.
+\newblock {\em {GARCH Models: Structure, Statistical Inference and Financial
+  Applications}}.
+\newblock Wiley, 2010.
+
+\bibitem{Goodfellow2016}
+Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
+\newblock {\em Deep Learning}.
+\newblock MIT Press, 2016.
+\newblock http://www.deeplearningbook.org.
+
+\bibitem{Goodfellow2014}
+Ian Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley,
+  Sherjil Ozair, Aaron Courville, and Yoshua Bengio.
+\newblock {Generative Adversarial Nets}.
+\newblock In Z.~Ghahramani, M.~Welling, C.~Cortes, N.~D. Lawrence, and K.~Q.
+  Weinberger, editors, {\em Advances in Neural Information Processing Systems
+  27}, pages 2672--2680. Curran Associates, Inc., 2014.
+
+\bibitem{Gulrajani2017}
+Ishaan Gulrajani, Faruk Ahmed, Martin Arjovsky, Vincent Dumoulin, and Aaron~C
+  Courville.
+\newblock {Improved Training of Wasserstein GANs}.
+\newblock In I.~Guyon, U.~V. Luxburg, S.~Bengio, H.~Wallach, R.~Fergus,
+  S.~Vishwanathan, and R.~Garnett, editors, {\em Advances in Neural Information
+  Processing Systems 30}, pages 5767--5777. Curran Associates, Inc., 2017.
+
+\bibitem{Heston93}
+Steven Heston.
+\newblock {A Closed-Form Solution for Options with Stochastic Volatility with
+  Applications to Bond and Currency Options}.
+\newblock {\em The Review of Financial Studies}, 6(2):327–343, 1993.
+
+\bibitem{Johansen1995}
+S{\o}ren Johansen.
+\newblock {\em Likelihood-based inference in cointegrated vector autoregressive
+  models}.
+\newblock Oxford University Press on Demand, 1995.
+
+\bibitem{Koshiyama2019}
+Adriano~Soares Koshiyama, Nick Firoozye, and Philip~C. Treleaven.
+\newblock {Generative Adversarial Networks for Financial Trading Strategies
+  Fine-Tuning and Combination}.
+\newblock {\em CoRR}, abs/1901.01751, 2019.
+
+\bibitem{Mescheder2018}
+Lars~M. Mescheder.
+\newblock On the convergence properties of {GAN} training.
+\newblock {\em CoRR}, abs/1801.04406, 2018.
+
+\bibitem{Miyato2018}
+Takeru Miyato, Toshiki Kataoka, Masanori Koyama, and Yuichi Yoshida.
+\newblock {Spectral Normalization for Generative Adversarial Networks}.
+\newblock {\em CoRR}, abs/1802.05957, 2018.
+
+\bibitem{Oord2016}
+Aaron van~den Oord, Sander Dieleman, Heiga Zen, Karen Simonyan, Oriol Vinyals,
+  Alex Graves, Nal Kalchbrenner, Andrew Senior, and Koray Kavukcuoglu.
+\newblock Wavenet: A generative model for raw audio.
+\newblock {\em arXiv preprint arXiv:1609.03499}, 2016.
+
+\bibitem{Ritter2018}
+Gordon Ritter and Petter~N Kolm.
+\newblock {Dynamic Replication and Hedging: A Reinforcement Learning Approach}.
+\newblock {\em Journal of Financial Data Science}, 1, 2019.
+
+\bibitem{Sonderby2016}
+Casper~Kaae S{\o}nderby, Jose Caballero, Lucas Theis, Wenzhe Shi, and Ferenc
+  Husz{\'{a}}r.
+\newblock {Amortised {MAP} Inference for Image Super-resolution}.
+\newblock {\em CoRR}, abs/1610.04490, 2016.
+
+\bibitem{Sutherland2017}
+Dougal~J. Sutherland, Hsiao{-}Yu Tung, Heiko Strathmann, Soumyajit De, Aaditya
+  Ramdas, Alexander~J. Smola, and Arthur Gretton.
+\newblock {Generative Models and Model Criticism via Optimized Maximum Mean
+  Discrepancy}.
+\newblock In {\em 5th International Conference on Learning Representations,
+  {ICLR} 2017, Toulon, France, April 24-26, 2017, Conference Track
+  Proceedings}, 2017.
+
+\bibitem{Takahashi2019}
+Shuntaro Takahashi, Yu~Chen, and Kumiko Tanaka-Ishii.
+\newblock Modeling financial time-series with generative adversarial networks.
+\newblock {\em Physica A: Statistical Mechanics and its Applications},
+  527:121261, 2019.
+
+\bibitem{Wiese2019}
+Magnus Wiese, Robert Knobloch, Ralf Korn, and Peter Kretschmer.
+\newblock Quant {GANs}: {Deep Generation of Financial Time Series}.
+\newblock 2019.
+
+\bibitem{Wissel2007}
+Johannes Wissel.
+\newblock Arbitrage-free market models for option prices.
+\newblock Technical report, {FINRISK}, 2007.
+\newblock http://www.nccr-finrisk.uzh.ch/media/pdf/wp/WP428$\_$D1.pdf.
+
+\bibitem{Zhang2019}
+Kang Zhang, Guoqiang Zhong, Junyu Dong, Shengke Wang, and Yong Wang.
+\newblock {Stock Market Prediction Based on Generative Adversarial Network}.
+\newblock {\em Procedia computer science}, 147:400--406, 2019.
+
+\bibitem{Zhou2018}
+Xingyu Zhou, Zhisong Pan, Guyu Hu, Siqi Tang, and Cheng Zhao.
+\newblock {Stock market prediction on high-frequency data using generative
+  adversarial nets}.
+\newblock {\em Mathematical Problems in Engineering}, 2018, 2018.
+
+\end{thebibliography}

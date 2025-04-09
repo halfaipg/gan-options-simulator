@@ -1,0 +1,24 @@
+\begin{table}[h]
+\resizebox{\linewidth}{!}{
+\begin{tabular}{lccccccc}
+\toprule
+& \multicolumn{3}{c}{Distributional} & \multicolumn{2}{c}{Dependence} &  \multicolumn{2}{c}{Cross-Correlation} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-6}\cmidrule(lr){7-8}
+Models  & \multicolumn{1}{l}{$|\hat f_h(B) - \hat f_r(B)|$} & \multicolumn{1}{l}{skew} & \multicolumn{1}{l}{kurtosis} & \multicolumn{1}{l}{$\operatorname{ACF}^X(16)$} & \multicolumn{1}{l}{$\operatorname{ACF}^R(1)$} & \multicolumn{1}{l}{$\| \hat \Sigma^X_h - \hat \Sigma^X_g \|_2$} & \multicolumn{1}{l}{$\| \hat \Sigma^R_h - \hat \Sigma^R_g \|_2$} \\
+\bottomrule
+VAR(2)                        & 0,100      & 0,443    & 0,435    & 0,636      & \textbf{0,042}     & 4,955                    & 10,322  \\
+VAR(2) - PCA(5)       & 0,217      & 0,448    & 7,968    & 0,674      & 0,045     & 1,121                    & 7,968     \\
+qMLE                  & 0,108                                                                  & 0,570                                         & 0,762                                             & 1,054                                                              & 0,204                                                           & 4,986                                                                                & 17,658                                                                               \\
+qMLE - PCA(5) & 0,069                                                                  & 0,410                                         & 0,501                                             & 1,110                                                              & 0,069                                                           & 5,559                                                                                & 4,496                                                                                \\
+GAN                           & \textbf{0,030}                                                                  & \textbf{0,087}                                         & \textbf{0,229}                                             & \textbf{0,202}                                                              & 0,092                                                           & \textbf{0,903}                                                                               & 5,054                                                                                \\
+GAN - PCA(5)          & 0,037                                                                  & 0,240                                         & 0,559                                             & 0,367                                                              & 0,074                                                           & 2,014                                                                                & 4,377                                                                                \\
+WGAN                          & 0,038                                                                  & 0,221                                         & 0,861                                             & 0,328                                                              & 0,062                                                           & 1,565                                                                                & 4,861                                                                                \\
+WGAN - PCA(5)        & 0,043                                                                  & 0,219                                         & 0,332                                             & 0,209                                                              & 0,074                                                           & 1,325                                                                                & \textbf{4,376}                                                                               \\
+%\bottomrule
+%Lower Bound Compression       & 0,025      & 0,088    & 0,232    & 0,146      & 0,036     & 1,191                    & 4,722 \\
+\bottomrule
+\end{tabular}}
+\captionof{table}{Numerical results obtained by using the full historical path.}
+\label{table:full_path}
+\end{table}
+

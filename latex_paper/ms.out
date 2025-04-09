@@ -1,0 +1,23 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Financial time series simulation}{}% 2
+\BOOKMARK [1][-]{section.3}{Option prices}{}% 3
+\BOOKMARK [1][-]{section.4}{Problem formulation}{}% 4
+\BOOKMARK [1][-]{section.5}{Models}{}% 5
+\BOOKMARK [1][-]{section.6}{Optimization}{}% 6
+\BOOKMARK [1][-]{section.7}{Evaluating the generated paths}{}% 7
+\BOOKMARK [2][-]{subsection.7.1}{Distributional metric}{section.7}% 8
+\BOOKMARK [2][-]{subsection.7.2}{Distributional scores}{section.7}% 9
+\BOOKMARK [2][-]{subsection.7.3}{Dependence scores}{section.7}% 10
+\BOOKMARK [2][-]{subsection.7.4}{Cross-correlation scores}{section.7}% 11
+\BOOKMARK [1][-]{section.8}{Numerical results}{}% 12
+\BOOKMARK [2][-]{subsection.8.1}{Dataset}{section.8}% 13
+\BOOKMARK [2][-]{subsection.8.2}{Benchmarks}{section.8}% 14
+\BOOKMARK [2][-]{subsection.8.3}{Training and evaluation time}{section.8}% 15
+\BOOKMARK [2][-]{subsection.8.4}{Results}{section.8}% 16
+\BOOKMARK [2][-]{subsection.8.5}{Explicit GAN-trained model}{section.8}% 17
+\BOOKMARK [1][-]{section.9}{Conclusion}{}% 18
+\BOOKMARK [1][-]{appendix.A}{Explicit GAN-trained model}{}% 19
+\BOOKMARK [2][-]{subsection.A.1}{Dependence properties}{appendix.A}% 20
+\BOOKMARK [2][-]{subsection.A.2}{Generated paths}{appendix.A}% 21
+\BOOKMARK [1][-]{appendix.B}{Discrete local volatilities}{}% 22
+\BOOKMARK [1][-]{appendix.C}{Disclaimer}{}% 23

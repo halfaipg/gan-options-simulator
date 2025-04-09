@@ -1,0 +1,25 @@
+\begin{table}[htp]
+\centering
+\captionof{table}{Scores obtained from historical implied volatilities and generated paths.}
+\resizebox{\linewidth}{!}{
+\begin{tabular}{lccccccc}
+\toprule
+& \multicolumn{3}{c}{Distributional} & \multicolumn{2}{c}{Dependence} &  \multicolumn{2}{c}{Cross-Correlation} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-6}\cmidrule(lr){7-8}
+Models  & \multicolumn{1}{l}{$|\hat f_h(B) - \hat f_r(B)|$} & \multicolumn{1}{l}{skew} & \multicolumn{1}{l}{kurtosis} & \multicolumn{1}{l}{$\operatorname{ACF}_X$} & \multicolumn{1}{l}{$\operatorname{ACF}_R$} & \multicolumn{1}{l}{$\| \hat \Sigma^X_h - \hat \Sigma^X_g \|_2$} & \multicolumn{1}{l}{$\| \hat \Sigma^R_h - \hat \Sigma^R_g \|_2$} \\
+\bottomrule
+GAN             & \textbf{0.044} & \textbf{0.063} & \textbf{0.097} & 0.186 & \textbf{0.011} & \textbf{0.137} & \textbf{0.771}  \\
+GAN - PCA(5)    & 0.047 & 0.082 & 0.276 & 0.468 & 0.021 & 0.977 & 3.125  \\
+WGAN-GP           & 0.046 & 0.296 & 1.023 & 0.296 & 0.027 & 0.457 & 0.843  \\
+WGAN-GP - PCA(5)   & 0.055 & 0.115 & 0.139 & \textbf{0.172} & 0.021 & 0.230 & 1.747  \\
+qMLE            & 0.124 & 0.636 & 0.585 & 0.765 & 0.073 & 2.264 & 11.567 \\
+qMLE - PCA(5)   & 0.075 & 0.427 & 0.463 & 1.048 & 0.020 & 2.434 & 3.599  \\
+VAR(2)          & 0.088 & 0.415 & 0.447 & 0.834 & 0.013 & 1.113 & 2.770 \\
+VAR(2) - PCA(5) & 0.223 & 0.328 & 2.302 & 0.914 & 0.025 & 0.477 & 1.982  \\
+TCN(256)\footnote{The number in brackets specifies the receptive field size that was used; here 256.}        & 0.048 & 0.105 & 0.295 & 0.330 & 0.372 & 0.335 & 1.501  \\
+%TCN(256) - PCA(5)  & 0.034 & 0.105 & 0.295 & 0.330 & 0.372 & 0.335 & 1.501  \\
+\bottomrule
+\end{tabular}}
+\label{table:full_path}
+\end{table}
+
